@@ -1,0 +1,61 @@
+# python-calculator
+its just a calculator
+#ChikinNug thats me
+#i really dont really know what im doing so feel free to tear into me
+
+
+
+running = True
+
+while running == True:
+    print("==========")
+    print("Calculator")
+    print("==========")
+    print("1.Add")
+    print("2.Subtract")
+    print("3.Multiply")
+    print("4.Divide")
+    print("5.Quit")
+    choice = input("Choice: ")
+    if choice == '1':
+        x = float(input("Enter first number to add: "))
+        y = float(input("Enter second number to add: "))
+        result = (x + y)
+        print(x, " + ", y, " = ", result)
+
+    elif choice == '2':
+        x = float(input("Enter first number to subtract: "))
+        y = float(input("Enter second number to subtract: "))
+        result = (x - y)
+        print(x, " - ", y, " = ", result)
+
+    elif choice == '3':
+        x = float(input("Enter first number to multiply: "))
+        y = float(input("Enter second number to multiply: "))
+        result = (x * y)
+        print(x, " * ", y, " = ", result)
+
+    elif choice == '4':
+        x = float(input("Enter first number to divide: "))
+        y = float(input("Enter second number to divide: "))
+        result = (x / y)
+        print(x, " / ", y, " = ", result)
+
+    elif choice == '5':
+        print("Breaking")
+        running = False
+
+    elif choice == '99':
+        print("https://www.youtube.com/watch?v=qsoChfAny6I")
+        print("Thats what I feel like when you try to break my program")
+
+    elif choice == '44':
+        print("https://www.youtube.com/watch?v=qsoChfAny6I")
+        print("Thats what I feel like when you try to break my code")
+
+    else:
+        print("Error")
+
+
+
+
